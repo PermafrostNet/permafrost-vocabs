@@ -1,6 +1,6 @@
-# CGI's Vocabularies
+# Permafrost Vocabularies
 
-This repository contains the source files of the Commission for the Management and Application of Geoscience Information (CGI)'s public vocabularies. 
+This repository contains the source files for permafrost public vocabularies. 
 
 All these vocabularies are presented as [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/) vocabularies and are delivered online at:
 
@@ -11,7 +11,7 @@ CGI's vocabularies in this repository are licensed using the [CC BY 4.0](https:/
 
 
 ## Contact
-Technical maintenance of CGI's vocabularies is performed by [Geoscience Australia](https://www.ga.gov.au). Contact the GA data manager:  
+Technical maintenance of permafrost vocabularies is performed by [NSERC PermafrostNet](https://www.permafrostnet.ca). Contact:  
 
-**GA Data Manager**    
-<dataman@ga.gov.au>
+**PermafrostNet Data Scientist**    
+<nick.brown@carleton.ca>
