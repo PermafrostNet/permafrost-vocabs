@@ -11,11 +11,11 @@ from rdflib.namespace import RDF, SKOS
 
 MAX_RETRIES = 3
 
-DB_TYPE = "graphdb"  # options: "fuseki" | "graphdb"
+DB_TYPE = "fuseki"  # options: "fuseki" | "graphdb"
 # BASE_DB_URI = "http://fuseki.surroundaustralia.com/cgi-vocabs"
-BASE_DB_URI = "http://graphdb.vocabs.ga.gov.au/repositories/vocabs-cgi"
+BASE_DB_URI = f"http://localhost:3030/{os.environ.get('DB_DATASET', None)}"
 # WEBSITE_URL = "http://cgi.surroundaustralia.com"
-WEBSITE_URL = "https://cgi.vocabs.ga.gov.au"
+WEBSITE_URL = 'http://vocab.permafrostnet.ca/'
 
 DB_USERNAME = os.environ.get("DB_USERNAME", None)
 DB_PASSWORD = os.environ.get("DB_PASSWORD", None)
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-
+    import pdb;pdb.set_trace()
     modified = []
     if args.modified:
         for f in args.modified.split(","):
@@ -223,6 +223,7 @@ if __name__ == "__main__":
     print("renamed:")
     print([str(x) for x in renamed])
 
+"""
     # retries if GET request fails
     retries = 0
     reason = ""
@@ -242,3 +243,4 @@ if __name__ == "__main__":
             retries += 1
             continue
     assert r.status_code == 200, f"Error code {r.status_code}: {reason}"
+"""

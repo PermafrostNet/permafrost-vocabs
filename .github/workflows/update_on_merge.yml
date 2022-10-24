@@ -23,6 +23,7 @@ jobs:
             DB_USERNAME: ${{secrets.DB_USERNAME}}
             DB_PASSWORD: ${{secrets.DB_PASSWORD}}      
         run: |
+          echo $KEY > key
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
           m=${{steps.file_changes.outputs.files_modified}}
@@ -32,4 +33,6 @@ jobs:
           if [ -z $m ]; then m="x"; fi
           if [ -z $d ]; then d="x"; fi
           if [ -z $r ]; then r="x"; fi
+          echo 'create tunnel'
+          ssh -N -L localhost:3030:localhost:3030  -i key $USER@$DB_HOST_IP
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
