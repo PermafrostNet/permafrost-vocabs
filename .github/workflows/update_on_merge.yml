@@ -40,5 +40,5 @@ jobs:
           ssh -N -L localhost:3031:localhost:3030 -i key vocabsTunnel@$206.12.93.125 &
           echo 'update'
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
-          exit
+          exit 0
 
