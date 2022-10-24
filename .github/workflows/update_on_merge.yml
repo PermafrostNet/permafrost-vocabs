@@ -35,5 +35,5 @@ jobs:
           if [ -z $d ]; then d="x"; fi
           if [ -z $r ]; then r="x"; fi
           echo 'create tunnel'
-          ssh -N -L localhost:3030:localhost:3030  -i key $USER@$DB_HOST_IP
+          ssh -N -L 3030:localhost:3030  -i key $USER@$DB_HOST_IP
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
