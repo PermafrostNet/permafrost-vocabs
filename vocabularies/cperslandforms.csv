@@ -1,0 +1,49 @@
+conceptScheme Url,http://w3id.org/permafrost/v/cperslandforms/scheme,,,,,,
+dct:title,CPERS Landforms,,,,,,
+skos:definition,Landform classes for the Canadian permafrost electrical resistivity survey database,,,,,,
+dct:description,Landform classes for the Canadian permafrost electrical resistivity survey database,,,,,,
+dct:identifier^^xsd:token,cperslandforms,,,,,,
+skos:prefLabel,CPERS Landform List,,,,,,
+owl:versionInfo,10,,,,,,
+dct:source^^xsd:anyURI,https://data.permafrostnet.ca/cpers/upload.html,,,,,,
+dcterms:created^^xsd:dateTimeStamp,2022-10-24T00:00:00Z,,,,,,
+dcterms:modified^^xsd:dateTimeStamp,2022-10-24T00:00:00Z,,,,,,
+,,,,,,,
+URI,skos:prefLabel@en,skos:altLabel@en,skos:definition@en,dct:references,dcterms:identifier^^xsd:token,owl:versionInfo,dct:source^^xsd:anyURI
+http://w3id.org/permafrost/v/cperslandforms/activelayerfailure,Active layer failure,,A general term referring to several forms of slope failures or failure mechanisms commonly occurring in the active layer overlying permafrost.,https://doi.org/10.4224/20386561,activelayerfailure,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/alas,Alas,,A large depression of the ground surface produced by thawing of a large area of very thick and exceedingly ice-rich permafrost.,https://doi.org/10.4224/20386561,alas,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/blockfield,Blockfield,,A blockfield,,blockfield,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/debrisflow,Debris flow,,Fast-moving landslides containing water-laden masses of soil and fragmented rock,https://en.wikipedia.org/wiki/Debris_flow,debrisflow,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/debriscoveredglacier,Debris-covered glacier,,Glaciers with significant amounts of supraglacial debris,,debriscoveredglacier,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/drainedlakebasin,Drained lake basin,,A drained lake basin,,drainedlakebasin,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/flatterrain,Flat terrain (undifferentiated),,Flat terrain,,flatterrain,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/floodplain,Flood plain,,"an area of land adjacent to a river which stretches from the banks of its channel to the base of the enclosing valley walls, and which experiences flooding during periods of high discharge.",https://en.wikipedia.org/wiki/Floodplain,floodplain,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/frozendebrislobe,Frozen debris lobe,,A frozen debris lobe,,frozendebrislobe,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/glacierforefield,Glacier forefield,,The region between the current leading edge of the glacier and the moraines of latest maximum,https://en.wikipedia.org/wiki/Glacier_foreland,glacierforefield,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/icewedgepolygon,Ice wedge polygon,,A polygon outlined by ice wedges underlying its boundaries.,https://doi.org/10.4224/20386561,icewedgepolygon,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/lakeshore,Lakeshore,,Beside a body of freshwater,,lakeshore,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/landslide,Landslide,,mass wasting of earth material due to gravity,,landslide,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/lithalsa,Lithalsa,,Permafrost mounds formed by ice segregation in mineral-rich soil that occur within the zone of discontinuous permafrost.,https://doi.org/10.1016/j.geomorph.2013.08.014,lithalsa,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/moraine,Moraine,,"a mound, ridge, or other distinct accumulation of glacial till.",https://nsidc.org/cryosphere/glossary,moraine,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/mountaintoporridgecrest,Mountain top or ridge crest,,The top of a mountain,,mountaintoporridgecrest,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/palsa,Palsa,,A peaty permafrost mound possessing a core of alternating layers of segregated ice and peat or mineral soil material.,https://doi.org/10.4224/20386561,palsa,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/patternedground,Patterned ground,,"A general term for any ground surface exhibiting a discernibly ordered, more or less symmetrical, morphological pattern of ground and, where present, vegetation.",https://doi.org/10.4224/20386561,patternedground,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/peatplateau,Peat plateau,,"A generally flat-topped expanse of peat, elevated above the general surface of a peatland, and containing segregated ice that may or may not extend downward into the underlying mineral soil.",https://doi.org/10.4224/20386561,peatplateau,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/peatland,Peatland,,Peat-covered terrain.,https://doi.org/10.4224/20386561,peatland,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/pingo,Pingo,,"A perennial frost mound consisting of a core of massive ice, produced primarily by injection of water, and covered with soil and vegetation.",https://doi.org/10.4224/20386561,pingo,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/protalusrampart,Protalus rampart,,"a depositional landform of periglacial origin. It forms as rock debris falls onto a steep snow slope from a cliff above and slides down the snow surface to come to a rest at the foot of the slope. Over a long period of time, sufficient material can accumulate in this way to produce a distinct bank of stony material which, long after the snowbed has melted away, remains as a rampart ",https://en.wikipedia.org/wiki/Protalus_rampart,protalusrampart,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/retrogressivethawslump,Retrogressive thaw slump,,A slope failure resulting from thawing of ice-rich permafrost ,https://doi.org/10.4224/20386561,retrogressivethawslump,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/riverchannel,River channel,,A river channel,,riverchannel,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/rockglacier,Rock glacier,,"A mass of rock fragments and finer material, on a slope, that contains either interstitial ice or an ice core and shows evidence of past or present movement.",https://doi.org/10.4224/20386561,rockglacier,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/rockslide,Rockslide,,a type of landslide caused by rock failure in which part of the bedding plane of failure passes through compacted rock and material collapses en masse and not in individual blocks,,rockslide,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/rockwall,Rockwall,,A steep rock face,,rockwall,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/seasonalfrostmound,Seasonal frost mound,,A seasonal frost mound,,seasonalfrostmound,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/shoreline,Shoreline,,A shoreline,,shoreline,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/slopingterrain,Sloping terrain (undifferentiated),,Ground surface inclined at an angle,,slopingterrain,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/solifluctionlobesheetterrace,Solifluction lobe/sheet/terrace,,"A solifluction lobe, sheet, or terrace",,solifluctionlobesheetterrace,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/talusslope,Talus slope,,a collection of broken rock fragments at the base of a cliff or other steep rocky mass that has accumulated through periodic rockfall. ,https://en.wikipedia.org/wiki/Scree,talusslope,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/thermoerosionalchannel,Thermo-erosional channel,,A thermo-erosional channel,,thermoerosionalchannel,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/thermokarstmound,Thermokarst mound,,A thermokarst mound,,thermokarstmound,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/thermokarststream,Thermokarst stream,,A stream occupying a closed depression formed by settlement of the ground following thawing of ice-rich permafrost or the melting of massive ice ,https://doi.org/10.4224/20386561,thermokarststream,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/thermokarstthawlake,Thermokarst/thaw lake,,A lake occupying a closed depression formed by settlement of the ground following thawing of ice-rich permafrost or the melting of massive ice,https://doi.org/10.4224/20386561,thermokarstthawlake,10,https://data.permafrostnet.ca/cpers/upload.html
+http://w3id.org/permafrost/v/cperslandforms/watertracks,Water tracks,,Water tracks,,watertracks,10,https://data.permafrostnet.ca/cpers/upload.html

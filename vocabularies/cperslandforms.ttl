@@ -1,0 +1,401 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://w3id.org/permafrost/v/cperslandforms/scheme> a skos:ConceptScheme;
+  dct:description "Landform classes for the Canadian permafrost electrical resistivity survey database";
+  skos:definition "Landform classes for the Canadian permafrost electrical resistivity survey database" ;
+  dct:identifier "cperslandforms"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  dct:created "2022-10-24T00:00:00Z"^^xsd:dateTimeStamp ;
+  dct:modified "2022-10-24T00:00:00Z"^^xsd:dateTimeStamp ;
+  dct:title "CPERS Landforms";
+  owl:versionInfo "10";
+  skos:hasTopConcept <http://w3id.org/permafrost/v/cperslandforms/activelayerfailure>,
+    <http://w3id.org/permafrost/v/cperslandforms/alas>, <http://w3id.org/permafrost/v/cperslandforms/blockfield>,
+    <http://w3id.org/permafrost/v/cperslandforms/debriscoveredglacier>, <http://w3id.org/permafrost/v/cperslandforms/debrisflow>,
+    <http://w3id.org/permafrost/v/cperslandforms/drainedlakebasin>, <http://w3id.org/permafrost/v/cperslandforms/flatterrain>,
+    <http://w3id.org/permafrost/v/cperslandforms/floodplain>, <http://w3id.org/permafrost/v/cperslandforms/frozendebrislobe>,
+    <http://w3id.org/permafrost/v/cperslandforms/glacierforefield>, <http://w3id.org/permafrost/v/cperslandforms/icewedgepolygon>,
+    <http://w3id.org/permafrost/v/cperslandforms/lakeshore>, <http://w3id.org/permafrost/v/cperslandforms/landslide>,
+    <http://w3id.org/permafrost/v/cperslandforms/lithalsa>, <http://w3id.org/permafrost/v/cperslandforms/moraine>,
+    <http://w3id.org/permafrost/v/cperslandforms/mountaintoporridgecrest>, <http://w3id.org/permafrost/v/cperslandforms/palsa>,
+    <http://w3id.org/permafrost/v/cperslandforms/patternedground>, <http://w3id.org/permafrost/v/cperslandforms/peatland>,
+    <http://w3id.org/permafrost/v/cperslandforms/peatplateau>, <http://w3id.org/permafrost/v/cperslandforms/pingo>,
+    <http://w3id.org/permafrost/v/cperslandforms/protalusrampart>, <http://w3id.org/permafrost/v/cperslandforms/retrogressivethawslump>,
+    <http://w3id.org/permafrost/v/cperslandforms/riverchannel>, <http://w3id.org/permafrost/v/cperslandforms/rockglacier>,
+    <http://w3id.org/permafrost/v/cperslandforms/rockslide>, <http://w3id.org/permafrost/v/cperslandforms/rockwall>,
+    <http://w3id.org/permafrost/v/cperslandforms/seasonalfrostmound>, <http://w3id.org/permafrost/v/cperslandforms/shoreline>,
+    <http://w3id.org/permafrost/v/cperslandforms/slopingterrain>, <http://w3id.org/permafrost/v/cperslandforms/solifluctionlobesheetterrace>,
+    <http://w3id.org/permafrost/v/cperslandforms/talusslope>, <http://w3id.org/permafrost/v/cperslandforms/thermoerosionalchannel>,
+    <http://w3id.org/permafrost/v/cperslandforms/thermokarstmound>, <http://w3id.org/permafrost/v/cperslandforms/thermokarststream>,
+    <http://w3id.org/permafrost/v/cperslandforms/thermokarstthawlake>, <http://w3id.org/permafrost/v/cperslandforms/watertracks>;
+  skos:prefLabel "CPERS Landform List" .
+
+<http://w3id.org/permafrost/v/cperslandforms/activelayerfailure> a skos:Concept;
+  dct:identifier "activelayerfailure"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A general term referring to several forms of slope failures or failure mechanisms commonly occurring in the active layer overlying permafrost."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Active layer failure"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/alas> a skos:Concept;
+  dct:identifier "alas"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A large depression of the ground surface produced by thawing of a large area of very thick and exceedingly ice-rich permafrost."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Alas"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/blockfield> a skos:Concept;
+  dct:identifier "blockfield"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A blockfield"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Blockfield"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/debrisflow> a skos:Concept;
+  dct:identifier "debrisflow"^^xsd:token;
+  dct:references <https://en.wikipedia.org/wiki/Debris_flow>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Fast-moving landslides containing water-laden masses of soil and fragmented rock"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Debris flow"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/debriscoveredglacier> a skos:Concept;
+  dct:identifier "debriscoveredglacier"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Glaciers with significant amounts of supraglacial debris"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Debris-covered glacier"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/drainedlakebasin> a skos:Concept;
+  dct:identifier "drainedlakebasin"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A drained lake basin"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Drained lake basin"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/flatterrain> a skos:Concept;
+  dct:identifier "flatterrain"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Flat terrain"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Flat terrain (undifferentiated)"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/floodplain> a skos:Concept;
+  dct:identifier "floodplain"^^xsd:token;
+  dct:references <https://en.wikipedia.org/wiki/Floodplain>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "an area of land adjacent to a river which stretches from the banks of its channel to the base of the enclosing valley walls, and which experiences flooding during periods of high discharge."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Flood plain"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/frozendebrislobe> a skos:Concept;
+  dct:identifier "frozendebrislobe"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A frozen debris lobe"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Frozen debris lobe"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/glacierforefield> a skos:Concept;
+  dct:identifier "glacierforefield"^^xsd:token;
+  dct:references <https://en.wikipedia.org/wiki/Glacier_foreland>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "The region between the current leading edge of the glacier and the moraines of latest maximum"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Glacier forefield"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/icewedgepolygon> a skos:Concept;
+  dct:identifier "icewedgepolygon"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A polygon outlined by ice wedges underlying its boundaries."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Ice wedge polygon"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/lakeshore> a skos:Concept;
+  dct:identifier "lakeshore"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Beside a body of freshwater"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Lakeshore"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/landslide> a skos:Concept;
+  dct:identifier "landslide"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "mass wasting of earth material due to gravity"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Landslide"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/lithalsa> a skos:Concept;
+  dct:identifier "lithalsa"^^xsd:token;
+  dct:references <https://doi.org/10.1016/j.geomorph.2013.08.014>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Permafrost mounds formed by ice segregation in mineral-rich soil that occur within the zone of discontinuous permafrost."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Lithalsa"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/moraine> a skos:Concept;
+  dct:identifier "moraine"^^xsd:token;
+  dct:references <https://nsidc.org/cryosphere/glossary>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "a mound, ridge, or other distinct accumulation of glacial till."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Moraine"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/mountaintoporridgecrest> a skos:Concept;
+  dct:identifier "mountaintoporridgecrest"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "The top of a mountain"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Mountain top or ridge crest"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/palsa> a skos:Concept;
+  dct:identifier "palsa"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A peaty permafrost mound possessing a core of alternating layers of segregated ice and peat or mineral soil material."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Palsa"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/patternedground> a skos:Concept;
+  dct:identifier "patternedground"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A general term for any ground surface exhibiting a discernibly ordered, more or less symmetrical, morphological pattern of ground and, where present, vegetation."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Patterned ground"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/peatplateau> a skos:Concept;
+  dct:identifier "peatplateau"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A generally flat-topped expanse of peat, elevated above the general surface of a peatland, and containing segregated ice that may or may not extend downward into the underlying mineral soil."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Peat plateau"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/peatland> a skos:Concept;
+  dct:identifier "peatland"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Peat-covered terrain."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Peatland"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/pingo> a skos:Concept;
+  dct:identifier "pingo"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A perennial frost mound consisting of a core of massive ice, produced primarily by injection of water, and covered with soil and vegetation."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Pingo"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/protalusrampart> a skos:Concept;
+  dct:identifier "protalusrampart"^^xsd:token;
+  dct:references <https://en.wikipedia.org/wiki/Protalus_rampart>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "a depositional landform of periglacial origin. It forms as rock debris falls onto a steep snow slope from a cliff above and slides down the snow surface to come to a rest at the foot of the slope. Over a long period of time, sufficient material can accumulate in this way to produce a distinct bank of stony material which, long after the snowbed has melted away, remains as a rampart"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Protalus rampart"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/retrogressivethawslump> a skos:Concept;
+  dct:identifier "retrogressivethawslump"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A slope failure resulting from thawing of ice-rich permafrost"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Retrogressive thaw slump"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/riverchannel> a skos:Concept;
+  dct:identifier "riverchannel"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A river channel"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "River channel"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/rockglacier> a skos:Concept;
+  dct:identifier "rockglacier"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A mass of rock fragments and finer material, on a slope, that contains either interstitial ice or an ice core and shows evidence of past or present movement."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Rock glacier"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/rockslide> a skos:Concept;
+  dct:identifier "rockslide"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "a type of landslide caused by rock failure in which part of the bedding plane of failure passes through compacted rock and material collapses en masse and not in individual blocks"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Rockslide"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/rockwall> a skos:Concept;
+  dct:identifier "rockwall"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A steep rock face"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Rockwall"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/seasonalfrostmound> a skos:Concept;
+  dct:identifier "seasonalfrostmound"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A seasonal frost mound"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Seasonal frost mound"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/shoreline> a skos:Concept;
+  dct:identifier "shoreline"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A shoreline"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Shoreline"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/slopingterrain> a skos:Concept;
+  dct:identifier "slopingterrain"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Ground surface inclined at an angle"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Sloping terrain (undifferentiated)"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/solifluctionlobesheetterrace> a skos:Concept;
+  dct:identifier "solifluctionlobesheetterrace"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A solifluction lobe, sheet, or terrace"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Solifluction lobe/sheet/terrace"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/talusslope> a skos:Concept;
+  dct:identifier "talusslope"^^xsd:token;
+  dct:references <https://en.wikipedia.org/wiki/Scree>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "a collection of broken rock fragments at the base of a cliff or other steep rocky mass that has accumulated through periodic rockfall."@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Talus slope"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/thermoerosionalchannel> a skos:Concept;
+  dct:identifier "thermoerosionalchannel"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A thermo-erosional channel"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Thermo-erosional channel"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/thermokarstmound> a skos:Concept;
+  dct:identifier "thermokarstmound"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A thermokarst mound"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Thermokarst mound"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/thermokarststream> a skos:Concept;
+  dct:identifier "thermokarststream"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A stream occupying a closed depression formed by settlement of the ground following thawing of ice-rich permafrost or the melting of massive ice"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Thermokarst stream"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/thermokarstthawlake> a skos:Concept;
+  dct:identifier "thermokarstthawlake"^^xsd:token;
+  dct:references <https://doi.org/10.4224/20386561>;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "A lake occupying a closed depression formed by settlement of the ground following thawing of ice-rich permafrost or the melting of massive ice"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Thermokarst/thaw lake"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
+
+<http://w3id.org/permafrost/v/cperslandforms/watertracks> a skos:Concept;
+  dct:identifier "watertracks"^^xsd:token;
+  dct:source "https://data.permafrostnet.ca/cpers/upload.html"^^xsd:anyURI;
+  owl:versionInfo "10";
+  skos:definition "Water tracks"@en;
+  skos:inScheme <http://w3id.org/permafrost/v/cperslandforms/scheme>;
+  skos:prefLabel "Water tracks"@en;
+  skos:topConceptOf <http://w3id.org/permafrost/v/cperslandforms/scheme> .
