@@ -28,6 +28,7 @@ jobs:
             SSH_USER: ${{secrets.SSH_USER}}
         run: |
           echo $KEY > key
+          chmod 600 key
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
           m=${{steps.file_changes.outputs.files_modified}}
