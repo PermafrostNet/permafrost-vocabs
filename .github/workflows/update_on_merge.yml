@@ -35,7 +35,8 @@ jobs:
           if [ -z $d ]; then d="x"; fi
           if [ -z $r ]; then r="x"; fi
           echo 'create tunnel'
-          echo $USER
+          echo $SSH_USER
           echo $DB_HOST_IP
-          ssh -i key vocabsTunnel@$206.12.93.125
+          ssh -N -L localhost:3031:localhost:3030 -i key vocabsTunnel@$206.12.93.125 
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
+
