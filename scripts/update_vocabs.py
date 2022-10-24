@@ -173,7 +173,6 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-    import pdb;pdb.set_trace()
     modified = []
     if args.modified:
         for f in args.modified.split(","):
