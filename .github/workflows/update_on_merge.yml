@@ -37,5 +37,5 @@ jobs:
           echo 'create tunnel'
           echo $USER
           echo $DB_HOST_IP
-          ssh -i key $USER@$DB_HOST_IP
+          ssh -i key vocabsTunnel@$206.12.93.125
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
