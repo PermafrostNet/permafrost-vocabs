@@ -38,7 +38,7 @@ jobs:
           if [ -z $d ]; then d="x"; fi
           if [ -z $r ]; then r="x"; fi
           echo 'create tunnel'
-          ssh -N -L localhost:3031:localhost:3030 -i key vocabsTunnel@206.12.93.125 
+          ssh -o StrictHostKeyChecking=no -N -L localhost:3031:localhost:3030 -i key vocabsTunnel@206.12.93.125 
           wget localhost:3031 -O test
           cat test
           echo 'update'
