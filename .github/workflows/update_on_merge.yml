@@ -22,7 +22,10 @@ jobs:
       - name: detect file changes
         env:
             DB_USERNAME: ${{secrets.DB_USERNAME}}
-            DB_PASSWORD: ${{secrets.DB_PASSWORD}}      
+            DB_PASSWORD: ${{secrets.DB_PASSWORD}}
+            DB_HOST_IP: ${{secrets.DB_HOST_IP}}
+            KEY: ${{secrets.KEY}}
+            SSH_USER: ${{secrets.SSH_USER}}
         run: |
           echo $KEY > key
           echo 'Run update script...'
@@ -36,8 +39,9 @@ jobs:
           if [ -z $r ]; then r="x"; fi
           echo 'create tunnel'
           echo $SSH_USER
-          echo $DB_HOST_IP
-          ssh -N -L localhost:3030:localhost:3030 -i key vocabsTunnel@$206.12.93.125 &
+          ssh -N -L localhost:3030:localhost:3030 -i key vocabsTunnel@$206.12.93.125 > pid &
+          wget localhost:3030 -O test
+          cat test
           echo 'update'
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
           exit 0
