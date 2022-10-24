@@ -39,8 +39,8 @@ jobs:
           if [ -z $r ]; then r="x"; fi
           echo 'create tunnel'
           echo $SSH_USER
-          ssh -N -L localhost:3030:localhost:3030 -i key vocabsTunnel@$206.12.93.125 > pid &
-          wget localhost:3030 -O test
+          ssh -N -L 3031:localhost:3030 -i key vocabsTunnel@$206.12.93.125 > pid &
+          wget localhost:3031 -O test
           cat test
           echo 'update'
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
