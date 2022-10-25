@@ -27,8 +27,9 @@ jobs:
             KEY: ${{secrets.KEY}}
             SSH_USER: ${{secrets.SSH_USER}}
         run: |
-          echo $KEY > key
-          chmod 600 key
+          mkdir -p /home/runner/.ssh
+          echo $KEY > /home/runner/.ssh/key.pem
+          chmod 600 /home/runner/.ssh/key.pem
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
           m=${{steps.file_changes.outputs.files_modified}}
@@ -39,7 +40,7 @@ jobs:
           if [ -z $d ]; then d="x"; fi
           if [ -z $r ]; then r="x"; fi
           echo 'create tunnel'
-          ssh -o StrictHostKeyChecking=no -N -L localhost:3031:localhost:3030 -i key "$SSH_USER"@"$DB_HOST_IP"
+          ssh -o StrictHostKeyChecking=no -N -L localhost:3031:localhost:3030 -i /home/runner/.ssh/key.pem $SSH_USER@$DB_HOST_IP
           wget localhost:3031 -O test
           cat test
           echo 'update'
