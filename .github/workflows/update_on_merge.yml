@@ -30,9 +30,10 @@ jobs:
           echo 'create tunnel'
           ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L 127.0.0.1:3040:localhost:3030 &
           jobs -l
+          wget 127.0.0.1:3040 -O test.html && cat test.html
           exit 0
           echo 'test connection'
-          wget 127.0.0.1:3040/index.html -O test
+          wget 127.0.0.1:3040 -O test
           cat test
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
