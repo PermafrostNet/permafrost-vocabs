@@ -26,6 +26,7 @@ jobs:
         env:
             DB_USERNAME: ${{secrets.DB_USERNAME}}
             DB_PASSWORD: ${{secrets.DB_PASSWORD}}
+            DB_DATASET: ${{secrets.DB_DATASET}}
         run: |
           echo 'create tunnel'
           ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L localhost:3030:localhost:3030 &
