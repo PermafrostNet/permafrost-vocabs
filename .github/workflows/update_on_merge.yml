@@ -31,8 +31,6 @@ jobs:
           echo 'create tunnel'
           ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L localhost:3030:localhost:3030 &
           sleep 5
-          echo 'test'
-          wget localhost:3030/nerc-test -O output.html && cat output.html
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
           m=${{steps.file_changes.outputs.files_modified}}

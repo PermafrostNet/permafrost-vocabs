@@ -19,7 +19,7 @@ WEBSITE_URL = 'http://vocab.permafrostnet.ca/'
 
 DB_USERNAME = os.environ.get("DB_USERNAME", None)
 DB_PASSWORD = os.environ.get("DB_PASSWORD", None)
-print(BASE_DB_URI)
+
 
 def add_vocabs(vocabs: List[Path], mappings: dict):
     # add new vocabs
