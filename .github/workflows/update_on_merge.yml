@@ -32,9 +32,9 @@ jobs:
             SSH_USER: ${{secrets.SSH_USER}}
         run: |
           echo 'create tunnel'
-          ssh  -N -L localhost:3030:localhost:3030 -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no $SSH_USER@$DB_HOST_IP &
+          ssh  -N -t -t -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "$SSH_USER@$DB_HOST_IP" -L 3040:localhost:3030 &
           echo 'test connection'
-          wget http://localhost:3030/index.html -O test
+          wget http://localhost:3040/index.html -O test
           cat test
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
