@@ -32,9 +32,13 @@ jobs:
             SSH_USER: ${{secrets.SSH_USER}}
         run: |
           echo 'create tunnel'
-          ssh  -N -t -t -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "$SSH_USER@$DB_HOST_IP" -L 127.0.0.1:3040:localhost:3030 
+          ssh  -N -t -t -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "$SSH_USER@$DB_HOST_IP" -L 127.0.0.1:3040:localhost:3030 &
+          jobs -l
+          ping localhost:3040
+          ping 127.0.0.1:3040
+          exit 0
           echo 'test connection'
-          wget http://localhost:3040/index.html -O test
+          wget 127.0.0.1:3040/index.html -O test
           cat test
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
