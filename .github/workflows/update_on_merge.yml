@@ -18,7 +18,7 @@ jobs:
       - name: Set up SSH key
         run: |
           mkdir -p /home/runner/.ssh
-          echo ${{secrets.KEY}}  > /home/runner/.ssh/key.pem
+          echo "${{secrets.KEY}}"  > /home/runner/.ssh/key.pem
           chmod 400 /home/runner/.ssh/key.pem
       - id: file_changes
         uses: trilom/file-changes-action@v1.2.4
