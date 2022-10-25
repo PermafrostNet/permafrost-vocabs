@@ -28,8 +28,10 @@ jobs:
             DB_PASSWORD: ${{secrets.DB_PASSWORD}}
         run: |
           echo 'create tunnel'
-          ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L 127.0.0.1:3040:localhost:3030 &
+          ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L localhost:3040:localhost:3030 &
           jobs -l
+          sleep 5
+          wget 127.0.0.1:3040 -O test.html && cat test.html
           wget 127.0.0.1:3040 -O test.html && cat test.html
           exit 0
           echo 'test connection'
