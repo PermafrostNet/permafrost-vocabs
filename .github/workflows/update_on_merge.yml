@@ -28,15 +28,8 @@ jobs:
             DB_PASSWORD: ${{secrets.DB_PASSWORD}}
         run: |
           echo 'create tunnel'
-          ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L localhost:3040:localhost:3030 &
-          jobs -l
-          sleep 5
-          wget 127.0.0.1:3040 -O test.html && cat test.html
-          wget 127.0.0.1:3040 -O test.html && cat test.html
-          exit 0
-          echo 'test connection'
-          wget 127.0.0.1:3040 -O test
-          cat test
+          ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L localhost:3030:localhost:3030 &
+          sleep 3
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
           m=${{steps.file_changes.outputs.files_modified}}
@@ -46,6 +39,4 @@ jobs:
           if [ -z $m ]; then m="x"; fi
           if [ -z $d ]; then d="x"; fi
           if [ -z $r ]; then r="x"; fi
-          echo 'update'
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
-          exit 0

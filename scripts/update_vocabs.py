@@ -13,7 +13,7 @@ MAX_RETRIES = 3
 
 DB_TYPE = "fuseki"  # options: "fuseki" | "graphdb"
 # BASE_DB_URI = "http://fuseki.surroundaustralia.com/cgi-vocabs"
-BASE_DB_URI = f"http://localhost:3031/{os.environ.get('DB_DATASET', None)}"
+BASE_DB_URI = f"http://localhost:3030/{os.environ.get('DB_DATASET', None)}"
 # WEBSITE_URL = "http://cgi.surroundaustralia.com"
 WEBSITE_URL = 'http://vocab.permafrostnet.ca/'
 
