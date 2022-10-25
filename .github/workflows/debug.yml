@@ -10,5 +10,9 @@ jobs:
         mkdir -p /home/runner/.ssh
         echo "${{secrets.KEY}}"  > /home/runner/.ssh/key.pem
         chmod 400 /home/runner/.ssh/key.pem 
+    - name: Set up tunnel
+      run: |
+        echo 'create tunnel'
+        ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "${{secrets.SSH_USER}}@${{secrets.DB_HOST_IP}}" -L 127.0.0.1:3040:localhost:3030
     - name: Setup upterm session
       uses: lhotari/action-upterm@v1
