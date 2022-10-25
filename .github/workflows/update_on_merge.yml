@@ -15,6 +15,11 @@ jobs:
           python -m pip install -U pip
           pip install -r scripts/requirements.txt
           sudo apt install --reinstall coreutils
+      -name: Set up SSH key
+       run: |
+          mkdir -p /home/runner/.ssh
+          echo ${{secrets.KEY}} | tr -d '\r' > /home/runner/.ssh/key.pem
+          chmod 400 /home/runner/.ssh/key.pem
       - id: file_changes
         uses: trilom/file-changes-action@v1.2.4
         with:
@@ -27,9 +32,6 @@ jobs:
             KEY: ${{secrets.KEY}}
             SSH_USER: ${{secrets.SSH_USER}}
         run: |
-          mkdir -p /home/runner/.ssh
-          echo ${{secrets.KEY}} | tr -d '\r' > /home/runner/.ssh/key.pem
-          chmod 400 /home/runner/.ssh/key.pem
           echo 'Run update script...'
           a=${{steps.file_changes.outputs.files_added}}
           m=${{steps.file_changes.outputs.files_modified}}
