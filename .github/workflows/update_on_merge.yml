@@ -55,3 +55,17 @@ jobs:
           python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
           exit 0
 
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up SSH key
+      run: |
+        mkdir -p /home/runner/.ssh
+        echo "${{secrets.KEY}}"  > /home/runner/.ssh/key.pem
+        chmod 400 /home/runner/.ssh/key.pem 
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
