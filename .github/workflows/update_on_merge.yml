@@ -22,7 +22,9 @@ jobs:
       - id: file_changes
         uses: trilom/file-changes-action@v1.2.4
         with:
-          output: ','        
+          output: ','     
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1   
       - name: detect file changes
         env:
             DB_USERNAME: ${{secrets.DB_USERNAME}}
@@ -32,10 +34,10 @@ jobs:
             SSH_USER: ${{secrets.SSH_USER}}
         run: |
           echo 'create tunnel'
-          ssh  -N -t -t -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "$SSH_USER@$DB_HOST_IP" -L 127.0.0.1:3040:localhost:3030 &
+          ssh  -N  -i /home/runner/.ssh/key.pem -o StrictHostKeyChecking=no "$SSH_USER@$DB_HOST_IP" -L 127.0.0.1:3040:localhost:3030 &
           jobs -l
-          ping localhost:3040
-          ping 127.0.0.1:3040
+          curl localhost:3040
+          curl 127.0.0.1:3040
           exit 0
           echo 'test connection'
           wget 127.0.0.1:3040/index.html -O test
