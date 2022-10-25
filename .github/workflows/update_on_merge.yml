@@ -22,8 +22,6 @@ jobs:
         uses: trilom/file-changes-action@v1.2.4
         with:
           output: ','     
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1   
       - name: detect file changes
         env:
             DB_USERNAME: ${{secrets.DB_USERNAME}}
