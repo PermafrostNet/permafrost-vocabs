@@ -227,7 +227,7 @@
     <http://w3id.org/permafrost/v/ipaglossary/t0393>, <http://w3id.org/permafrost/v/ipaglossary/t0394>,
     <http://w3id.org/permafrost/v/ipaglossary/t0395>, <http://w3id.org/permafrost/v/ipaglossary/t0396>,
     <http://w3id.org/permafrost/v/ipaglossary/t0397>;
-  skos:prefLabel "NRC Permafrost Glossary" .
+  skos:prefLabel "IPA Permafrost Glossary" .
 
 <http://w3id.org/permafrost/v/ipaglossary/t0001> a skos:Concept;
   dct:identifier "t0001"^^xsd:token;
