@@ -1,4 +1,4 @@
 { 
     "cperslandforms.ttl": "http://w3id.org/permafrost/v/cperslandforms/scheme",
-    "nrcglossary.ttl": "http://w3id.org/permafrost/v/nrcglossary/scheme"
+    "ipaglossary.ttl": "http://w3id.org/permafrost/v/ipaglossary/scheme"
 }
