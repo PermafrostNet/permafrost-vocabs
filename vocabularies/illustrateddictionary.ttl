@@ -36,60 +36,60 @@
   owl:versionInfo "1.0"@en;
   dct:source "https://doi.org/10.52381/CPA.permafrostdictionary.1"^^xsd:anyURI;
   dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
-  skos:hasTopConcept <http://w3id.org/permafrost/v/illustratedpermafrost/activelayer>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/activelayerdetachmentfailure>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/activelayerthickness>, <http://w3id.org/permafrost/v/illustratedpermafrost/adfreezepile>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/aircooledembankment>, <http://w3id.org/permafrost/v/illustratedpermafrost/albedo>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/aufeis>, <http://w3id.org/permafrost/v/illustratedpermafrost/beadedstream>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/buriedice>, <http://w3id.org/permafrost/v/illustratedpermafrost/continuouspermafrost>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/continuouspermafrostzone>, <http://w3id.org/permafrost/v/illustratedpermafrost/creepoffrozenground>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/cryosphere>, <http://w3id.org/permafrost/v/illustratedpermafrost/cryostratigraphy>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/cryostructure>, <http://w3id.org/permafrost/v/illustratedpermafrost/debrisflow>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/discontinuouspermafrost>, <http://w3id.org/permafrost/v/illustratedpermafrost/discontinuouspermafrostzone>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/drunkenforest>, <http://w3id.org/permafrost/v/illustratedpermafrost/electricalresistivitytomography>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/excessice>, <http://w3id.org/permafrost/v/illustratedpermafrost/foodcellar>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/freezeback>, <http://w3id.org/permafrost/v/illustratedpermafrost/freezingofground>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/frostaction>, <http://w3id.org/permafrost/v/illustratedpermafrost/frostblister>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/frostboil>, <http://w3id.org/permafrost/v/illustratedpermafrost/frostbulb>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/frostheave>, <http://w3id.org/permafrost/v/illustratedpermafrost/frostjacking>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/frostprobe>, <http://w3id.org/permafrost/v/illustratedpermafrost/frostshattering>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/frostsorting>, <http://w3id.org/permafrost/v/illustratedpermafrost/froststableground>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/frostsusceptibleground>, <http://w3id.org/permafrost/v/illustratedpermafrost/frozenground>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/geocryology>, <http://w3id.org/permafrost/v/illustratedpermafrost/geothermalgradient>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/groundice>, <http://w3id.org/permafrost/v/illustratedpermafrost/hummock>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/hydraulicthawing>, <http://w3id.org/permafrost/v/illustratedpermafrost/icelens>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/icepoorpermafrost>, <http://w3id.org/permafrost/v/illustratedpermafrost/icerichpermafrost>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/icevein>, <http://w3id.org/permafrost/v/illustratedpermafrost/icewedge>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/icewedgemeltpond>, <http://w3id.org/permafrost/v/illustratedpermafrost/icewedgepolygon>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/isolatedpatchesofpermafrostzone>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/isotherm>, <http://w3id.org/permafrost/v/illustratedpermafrost/lithalsa>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/massiveice>, <http://w3id.org/permafrost/v/illustratedpermafrost/meanannualairtemperature>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/mountainpermafrost>, <http://w3id.org/permafrost/v/illustratedpermafrost/muskeg>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/nearsurfacepermafrost>, <http://w3id.org/permafrost/v/illustratedpermafrost/palsa>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/patternedground>, <http://w3id.org/permafrost/v/illustratedpermafrost/peat>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/peatland>, <http://w3id.org/permafrost/v/illustratedpermafrost/peatplateau>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/permafrost>, <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostaggradation>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostbase>, <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostcarbon>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostcarbonclimatefeedbacks>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostcoresample>, <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostdegradation>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostmelt>, <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostmonitoringborehole>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/permafrosttable>, <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostthaw>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostthickness>, <http://w3id.org/permafrost/v/illustratedpermafrost/permafrostzone>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/pingo>, <http://w3id.org/permafrost/v/illustratedpermafrost/poreice>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/radiator>, <http://w3id.org/permafrost/v/illustratedpermafrost/relictpermafrost>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/retrogressivethawslump>, <http://w3id.org/permafrost/v/illustratedpermafrost/rockglacier>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/salinepermafrost>, <http://w3id.org/permafrost/v/illustratedpermafrost/seasonallyfrozenground>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/solifluction>, <http://w3id.org/permafrost/v/illustratedpermafrost/spaceframefoundation>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/sporadicpermafrostzone>, <http://w3id.org/permafrost/v/illustratedpermafrost/suprapermafrostgroundwater>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/talik>, <http://w3id.org/permafrost/v/illustratedpermafrost/thawdepth>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/thawsensitivepermafrost>, <http://w3id.org/permafrost/v/illustratedpermafrost/thawsettlement>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/thawslumping>, <http://w3id.org/permafrost/v/illustratedpermafrost/thawstableground>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/thawtube>, <http://w3id.org/permafrost/v/illustratedpermafrost/thermalerosion>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/thermokarst>, <http://w3id.org/permafrost/v/illustratedpermafrost/thermokarstlake>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/thermosyphon>, <http://w3id.org/permafrost/v/illustratedpermafrost/trumpetcurve>,
-    <http://w3id.org/permafrost/v/illustratedpermafrost/utilidor>, <http://w3id.org/permafrost/v/illustratedpermafrost/yedoma> .
+  skos:hasTopConcept <http://w3id.org/permafrost/v/illustrateddictionary/activelayer>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/activelayerdetachmentfailure>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/activelayerthickness>, <http://w3id.org/permafrost/v/illustrateddictionary/adfreezepile>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/aircooledembankment>, <http://w3id.org/permafrost/v/illustrateddictionary/albedo>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/aufeis>, <http://w3id.org/permafrost/v/illustrateddictionary/beadedstream>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/buriedice>, <http://w3id.org/permafrost/v/illustrateddictionary/continuouspermafrost>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/continuouspermafrostzone>, <http://w3id.org/permafrost/v/illustrateddictionary/creepoffrozenground>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/cryosphere>, <http://w3id.org/permafrost/v/illustrateddictionary/cryostratigraphy>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/cryostructure>, <http://w3id.org/permafrost/v/illustrateddictionary/debrisflow>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/discontinuouspermafrost>, <http://w3id.org/permafrost/v/illustrateddictionary/discontinuouspermafrostzone>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/drunkenforest>, <http://w3id.org/permafrost/v/illustrateddictionary/electricalresistivitytomography>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/excessice>, <http://w3id.org/permafrost/v/illustrateddictionary/foodcellar>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/freezeback>, <http://w3id.org/permafrost/v/illustrateddictionary/freezingofground>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/frostaction>, <http://w3id.org/permafrost/v/illustrateddictionary/frostblister>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/frostboil>, <http://w3id.org/permafrost/v/illustrateddictionary/frostbulb>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/frostheave>, <http://w3id.org/permafrost/v/illustrateddictionary/frostjacking>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/frostprobe>, <http://w3id.org/permafrost/v/illustrateddictionary/frostshattering>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/frostsorting>, <http://w3id.org/permafrost/v/illustrateddictionary/froststableground>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/frostsusceptibleground>, <http://w3id.org/permafrost/v/illustrateddictionary/frozenground>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/geocryology>, <http://w3id.org/permafrost/v/illustrateddictionary/geothermalgradient>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/groundice>, <http://w3id.org/permafrost/v/illustrateddictionary/hummock>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/hydraulicthawing>, <http://w3id.org/permafrost/v/illustrateddictionary/icelens>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/icepoorpermafrost>, <http://w3id.org/permafrost/v/illustrateddictionary/icerichpermafrost>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/icevein>, <http://w3id.org/permafrost/v/illustrateddictionary/icewedge>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/icewedgemeltpond>, <http://w3id.org/permafrost/v/illustrateddictionary/icewedgepolygon>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/isolatedpatchesofpermafrostzone>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/isotherm>, <http://w3id.org/permafrost/v/illustrateddictionary/lithalsa>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/massiveice>, <http://w3id.org/permafrost/v/illustrateddictionary/meanannualairtemperature>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/mountainpermafrost>, <http://w3id.org/permafrost/v/illustrateddictionary/muskeg>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/nearsurfacepermafrost>, <http://w3id.org/permafrost/v/illustrateddictionary/palsa>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/patternedground>, <http://w3id.org/permafrost/v/illustrateddictionary/peat>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/peatland>, <http://w3id.org/permafrost/v/illustrateddictionary/peatplateau>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/permafrost>, <http://w3id.org/permafrost/v/illustrateddictionary/permafrostaggradation>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/permafrostbase>, <http://w3id.org/permafrost/v/illustrateddictionary/permafrostcarbon>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/permafrostcarbonclimatefeedbacks>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/permafrostcoresample>, <http://w3id.org/permafrost/v/illustrateddictionary/permafrostdegradation>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/permafrostmelt>, <http://w3id.org/permafrost/v/illustrateddictionary/permafrostmonitoringborehole>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/permafrosttable>, <http://w3id.org/permafrost/v/illustrateddictionary/permafrostthaw>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/permafrostthickness>, <http://w3id.org/permafrost/v/illustrateddictionary/permafrostzone>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/pingo>, <http://w3id.org/permafrost/v/illustrateddictionary/poreice>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/radiator>, <http://w3id.org/permafrost/v/illustrateddictionary/relictpermafrost>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/retrogressivethawslump>, <http://w3id.org/permafrost/v/illustrateddictionary/rockglacier>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/salinepermafrost>, <http://w3id.org/permafrost/v/illustrateddictionary/seasonallyfrozenground>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/solifluction>, <http://w3id.org/permafrost/v/illustrateddictionary/spaceframefoundation>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/sporadicpermafrostzone>, <http://w3id.org/permafrost/v/illustrateddictionary/suprapermafrostgroundwater>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/talik>, <http://w3id.org/permafrost/v/illustrateddictionary/thawdepth>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/thawsensitivepermafrost>, <http://w3id.org/permafrost/v/illustrateddictionary/thawsettlement>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/thawslumping>, <http://w3id.org/permafrost/v/illustrateddictionary/thawstableground>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/thawtube>, <http://w3id.org/permafrost/v/illustrateddictionary/thermalerosion>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/thermokarst>, <http://w3id.org/permafrost/v/illustrateddictionary/thermokarstlake>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/thermosyphon>, <http://w3id.org/permafrost/v/illustrateddictionary/trumpetcurve>,
+    <http://w3id.org/permafrost/v/illustrateddictionary/utilidor>, <http://w3id.org/permafrost/v/illustrateddictionary/yedoma> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/activelayer> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/activelayer> a skos:Concept;
   skos:prefLabel "active layer"@en;
   skos:definition "The top layer of the ground over permafrost that thaws in summer and freezes in winter."@en;
   skos:scopeNote "Did you know? The active layer is thinner in the Arctic where the permafrost is continuous and thicker in the Subarctic where permafrost is discontinuous."@en;
@@ -98,7 +98,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/activelayerdetachmentfailure>
+<http://w3id.org/permafrost/v/illustrateddictionary/activelayerdetachmentfailure>
   a skos:Concept;
   skos:prefLabel "active-layer detachment failure"@en;
   skos:definition "A landslide in which the thawed surface layer of the ground detaches and slides downslope over frozen soil ."@en;
@@ -108,7 +108,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/activelayerthickness> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/activelayerthickness> a skos:Concept;
   skos:prefLabel "active-layer thickness"@en;
   skos:definition "The thickness of the layer of the ground over permafrost that thaws in summer and freezes in winter."@en;
   skos:scopeNote "Did you know? Permafrost scientists measure active-layer thickness every year at many sites in the Arctic, Antarctic and high mountains as an indicator of climate change (see https://arcticdata.io/catalog/portals/CALM)"@en;
@@ -117,7 +117,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/adfreezepile> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/adfreezepile> a skos:Concept;
   skos:prefLabel "adfreeze pile"@en;
   skos:definition "Long posts (called piles) made of steel, wood or concrete that are solidly frozen into the permafrost in order to support a building or other structure."@en;
   skos:scopeNote "Did you know? Buildings on adfreeze piles are usually raised off the ground to reduce heat entering the permafrost."@en;
@@ -126,7 +126,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/aircooledembankment> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/aircooledembankment> a skos:Concept;
   skos:prefLabel "air-cooled embankment"@en;
   skos:definition "A coarse rock or gravel pad that contains air voids or pipes that allow air to circulate in winter, with warm air rising and flowing out while cold air is pulled in."@en;
   skos:scopeNote "Did you know? The air movements cool the interior of the embankment and help preserve the permafrost beneath it."@en;
@@ -135,7 +135,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/albedo> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/albedo> a skos:Concept;
   skos:prefLabel "albedo"@en;
   skos:definition "The fraction of sunlight that is reflected by a surface."@en;
   skos:scopeNote "Did you know? Engineers have experimented with light-coloured road and runway surfaces that have higher albedos, reflect more sunlight, reduce heat entering the ground and help maintain the permafrost."@en;
@@ -144,7 +144,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/aufeis> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/aufeis> a skos:Concept;
   skos:prefLabel "aufeis"@en;
   skos:definition "A thick sheet of ice (also called an icing) that builds up in layers on the ground in winter as water emerges under pressure."@en;
   skos:scopeNote "Did you know? Aufeis that covers a road can be hazardous to vehicles because it is so smooth and slippery."@en;
@@ -153,7 +153,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/beadedstream> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/beadedstream> a skos:Concept;
   skos:prefLabel "beaded stream"@en;
   skos:definition "A narrow stream that connects deeper pools, creating a bead-like appearance."@en;
   skos:scopeNote "Did you know? The pools occur at the intersections of ice wedges."@en;
@@ -162,7 +162,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/buriedice> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/buriedice> a skos:Concept;
   skos:prefLabel "buried ice"@en;
   skos:definition "Ice that was covered by sediments and preserved in the permafrost."@en;
   skos:scopeNote "Did you know? The ice may have been formed as part of a glacier, a snowbank, or lake ice. Some buried ice was formed in the last Ice Age and has been preserved as part of the permafrost for thousands of years."@en;
@@ -171,7 +171,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/continuouspermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/continuouspermafrost> a skos:Concept;
   skos:prefLabel "continuous permafrost"@en;
   skos:definition "Permafrost that is present almost everywhere in a region."@en;
   skos:scopeNote "Did you know? A mean annual air temperature below -6°C is usually needed for permafrost to be continuous."@en;
@@ -180,7 +180,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/continuouspermafrostzone> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/continuouspermafrostzone> a skos:Concept;
   skos:prefLabel "continuous permafrost zone"@en;
   skos:definition "A geographic area where permafrost is estimated to be present beneath more than 90% of the land surface."@en;
   skos:scopeNote "Did you know? In North America, the continuous permafrost zone generally starts close to treeline and extends throughout the tundra."@en;
@@ -189,7 +189,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/creepoffrozenground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/creepoffrozenground> a skos:Concept;
   skos:prefLabel "creep of frozen ground"@en;
   skos:definition "The slow deformation of frozen ground."@en;
   skos:scopeNote "Did you know? Creep is mostly due to ice in the ground slowly changing shape while under pressure, especially on slopes. It can affect the stability of buildings constructed on permafrost. ."@en;
@@ -198,7 +198,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/cryosphere> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/cryosphere> a skos:Concept;
   skos:prefLabel "cryosphere"@en;
   skos:definition "The portion of the Earth that contains ice or experiences freezing temperatures for at least part of the year."@en;
   skos:scopeNote "Did you know? The cryosphere contains more than 90% of the world's freshwater and includes permafrost, glaciers, and the seasonal snowpack."@en;
@@ -207,7 +207,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/cryostratigraphy> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/cryostratigraphy> a skos:Concept;
   skos:prefLabel "cryostratigraphy"@en;
   skos:definition "The study of frozen layers in the Earth's crust to understand how they formed."@en;
   skos:scopeNote "Did you know? Layers of sediment and rock develop unique patterns and shapes due to freezing and thawing."@en;
@@ -216,7 +216,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/cryostructure> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/cryostructure> a skos:Concept;
   skos:prefLabel "cryostructure"@en;
   skos:definition "The relative amounts and arrangement of soil and ice in permafrost."@en;
   skos:scopeNote "Did you know? There are many types of cryostructure. One common kind looks like alternating layers of ice and sediment while another looks like vertical wedges of ice."@en;
@@ -225,7 +225,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/debrisflow> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/debrisflow> a skos:Concept;
   skos:prefLabel "debris flow"@en;
   skos:definition "A landslide composed of mud, rocks and water that flows rapidly down a slope."@en;
   skos:scopeNote "Did you know? Debris flows usually develop on steep slopes and are most often triggered by rapid snowmelt or heavy rain. They move fast enough to be dangerous and destructive. They can occur in areas with or without permafrost."@en;
@@ -234,7 +234,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/discontinuouspermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/discontinuouspermafrost> a skos:Concept;
   skos:prefLabel "discontinuous permafrost"@en;
   skos:definition "Permafrost present under some, but not all, of the land in a region."@en;
   skos:scopeNote "Did you know? Where permafrost is discontinuous, it will be absent from the warmest parts of the landscape, such as well-drained, sunny slopess."@en;
@@ -243,7 +243,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/discontinuouspermafrostzone> a
+<http://w3id.org/permafrost/v/illustrateddictionary/discontinuouspermafrostzone> a
     skos:Concept;
   skos:prefLabel "discontinuous permafrost zone"@en;
   skos:definition "A geographical area where permafrost is estimated to be present beneath more than half, but less than 90%, of the land surface."@en;
@@ -253,7 +253,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/drunkenforest> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/drunkenforest> a skos:Concept;
   skos:prefLabel "drunken forest"@en;
   skos:definition "Trees leaning in differing directions as if unable to stand upright."@en;
   skos:scopeNote "Did you know? Drunken forest can be caused by ice forming or melting in the ground beneath the trees. It's often a good indication that permafrost is present."@en;
@@ -262,7 +262,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/electricalresistivitytomography>
+<http://w3id.org/permafrost/v/illustrateddictionary/electricalresistivitytomography>
   a skos:Concept;
   skos:prefLabel "electrical resistivity tomography (ERT)"@en;
   skos:definition "A scientific technique that can be used to examine the characteristics of permafrost at a site."@en;
@@ -272,7 +272,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/excessice> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/excessice> a skos:Concept;
   skos:prefLabel "excess ice"@en;
   skos:definition "Ice, which when melted, exceeds the space available for water to be stored in the ground."@en;
   skos:scopeNote "Did you know? Excess ice is often visible when it is present in a sample of frozen soil. If excess ice melts, water is lost and the ground settles ."@en;
@@ -281,7 +281,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/foodcellar> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/foodcellar> a skos:Concept;
   skos:prefLabel "food cellar"@en;
   skos:definition "A chamber excavated in the permafrost that is used to refrigerate or freeze country foods."@en;
   skos:scopeNote "Did you know? Some food cellars (also known as ice cellars, ice houses and meat cellars) have become unusable in recent years as flooding has occurred or the permafrost has become too warm to safely store meat or fish."@en;
@@ -290,7 +290,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/freezeback> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/freezeback> a skos:Concept;
   skos:prefLabel "freezeback"@en;
   skos:definition "Refreezing of soil that thawed during the summer or freezing of unfrozen materials that were placed during construction on permafrost."@en;
   skos:scopeNote "Did you know? Freezeback of the entire active layer may take a few weeks to a few months in the tundra, but all winter at sites in the boreal forest."@en;
@@ -299,7 +299,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/freezingofground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/freezingofground> a skos:Concept;
   skos:prefLabel "freezing of ground"@en;
   skos:definition "The process of turning some or all of the water in the ground into ice."@en;
   skos:scopeNote "Did you know? Water in the ground does not start to freeze at exactly 0°C because it always contains dissolved salts which lower the freezing point. In clay soils, a fraction of the moisture can remain unfrozen to -8°C or below because it is so tightly bonded to the small soil particles."@en;
@@ -308,7 +308,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostaction> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostaction> a skos:Concept;
   skos:prefLabel "frost action"@en;
   skos:definition "The alternate freezing and thawing of moisture in soil and rock, and the resulting effects on the ground, buildings and infrastructure."@en;
   skos:scopeNote "Did you know? Frost action has many effects, including the breakdown of rocks and the heaving of roads."@en;
@@ -317,7 +317,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostblister> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostblister> a skos:Concept;
   skos:prefLabel "frost blister"@en;
   skos:definition "A frozen mound raised up in a single winter by pressurized water confined between the freezing active layer and the permafrost."@en;
   skos:scopeNote "Did you know? Frost blisters have cores made up of long crystals of almost pure ice. They usually melt out the summer after they form."@en;
@@ -326,7 +326,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostboil> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostboil> a skos:Concept;
   skos:prefLabel "frost boil"@en;
   skos:definition "A patch of bare soil with a slightly mounded central area, formed by frost action."@en;
   skos:scopeNote "Did you know? Frost boils are used by some geologists to collect soil samples during mineral exploration."@en;
@@ -335,7 +335,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostbulb> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostbulb> a skos:Concept;
   skos:prefLabel "frost bulb"@en;
   skos:definition "A zone of frozen ground that forms around an engineered structure chilled below the freezing point."@en;
   skos:scopeNote "Did you know? Frost bulbs can form below refrigerated hockey rinks."@en;
@@ -344,7 +344,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostheave> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostheave> a skos:Concept;
   skos:prefLabel "frost heave"@en;
   skos:definition "The upward movement of the ground due to ice formed while freezing."@en;
   skos:scopeNote "Did you know? Frost heave generates enough force that it can lift even very heavy objects on the ground surface."@en;
@@ -353,7 +353,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostjacking> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostjacking> a skos:Concept;
   skos:prefLabel "frost jacking"@en;
   skos:definition "The lifting by frost heave of piles or other posts embedded in the ground."@en;
   skos:scopeNote "Did you know? This can be a serious problem for buildings and bridges, especially because each pile is nearly always jacked by a different amount."@en;
@@ -362,7 +362,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostprobe> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostprobe> a skos:Concept;
   skos:prefLabel "frost probe"@en;
   skos:definition "A metal rod that is pushed into the ground to measure the frost table depth (i.e., thaw depth)."@en;
   skos:scopeNote "Did you know...? The T-shaped handle of the frost probe is used to push it into the ground until it suddenly stops. With experience, it may be possible to use the impact and the sound the probe makes to tell whether it has hit frozen ground or a rock. Frost probing at the end of summer that encounters frozen ground shows that permafrost is present and the depth of the probe tip is roughly equal to the active layer thickness."@en;
@@ -371,7 +371,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostshattering> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostshattering> a skos:Concept;
   skos:prefLabel "frost shattering"@en;
   skos:definition "Freezing that breaks up rock into smaller pieces."@en;
   skos:scopeNote "Did you know? The movement of water through the rock and its expansion as it changes into ice creates the high pressures that cause rock to shatter."@en;
@@ -380,7 +380,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostsorting> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostsorting> a skos:Concept;
   skos:prefLabel "frost sorting"@en;
   skos:definition "The re-arrangement of soil particles and stones by frost action into groups of differing sizes."@en;
   skos:scopeNote "Did you know? Frost sorting is linked to the formation of some unique patterned ground features, including sorted nets, circles, stripes, and polygons."@en;
@@ -389,7 +389,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/froststableground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/froststableground> a skos:Concept;
   skos:prefLabel "frost-stable ground"@en;
   skos:definition "Ground in which little or no ice forms during freezing."@en;
   skos:scopeNote "Did you know? Frost-stable ground is usually composed of coarse-grained soils, such as sands or gravels, or unfractured bedrock. These are also called non-frost-susceptible materials. Buildings constructed on them are unaffected by ground freezing or thawing."@en;
@@ -398,7 +398,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frostsusceptibleground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frostsusceptibleground> a skos:Concept;
   skos:prefLabel "frost-susceptible ground"@en;
   skos:definition "Ground in which excess ice may form during freezing, causing frost heave."@en;
   skos:scopeNote "Did you know? Frost-susceptible ground is usually composed of fine-grained soils, such as silts and clays. These are also called frost-susceptible materials. Buildings constructed on perennially frozen frost-susceptible materials are typically designed to maintain the permafrost because these soils lose strength and settle if the ground thaws."@en;
@@ -407,7 +407,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/frozenground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/frozenground> a skos:Concept;
   skos:prefLabel "frozen ground"@en;
   skos:definition "Soil or rock that contains ice."@en;
   skos:scopeNote "Did you know? In fine-grained clay soils or saline soils, some water may remain liquid even when the ground temperature is well below 0°C."@en;
@@ -416,7 +416,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/geocryology> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/geocryology> a skos:Concept;
   skos:prefLabel "geocryology"@en;
   skos:definition "The study of permafrost and seasonally frozen ground."@en;
   skos:scopeNote "Did you know? Geocryologists may be trained as scientists, engineers or both. They have formed organizations such as the Canadian Permafrost Association and the International Permafrost Associationto share knowledge with other geocryologists and with those who live or work on permafrost."@en;
@@ -425,7 +425,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/geothermalgradient> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/geothermalgradient> a skos:Concept;
   skos:prefLabel "geothermal gradient"@en;
   skos:definition "The rate at which the temperature of the ground changes with depth."@en;
   skos:scopeNote "Did you know? The ground typically gets warmer as you go deeper. Due to recent climate warming, however, the surface layers of permafrost may be as warm as, or warmer than, deeper layers."@en;
@@ -434,7 +434,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/groundice> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/groundice> a skos:Concept;
   skos:prefLabel "ground ice"@en;
   skos:definition "Ice in the ground."@en;
   skos:scopeNote "Did you know? Ground ice comes in numerous shapes and sizes and has many different origins. Its presence is what makes permafrost thaw so significant."@en;
@@ -443,7 +443,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/hummock> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/hummock> a skos:Concept;
   skos:prefLabel "hummock"@en;
   skos:definition "A small mound or hump on the ground surface, typically made up of fine-grained soil or vegetation."@en;
   skos:scopeNote "Did you know? Hummocks often occur in groups which give the ground a bumpy, patterned appearance. This uneveness can make walking quite difficult."@en;
@@ -452,7 +452,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/hydraulicthawing> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/hydraulicthawing> a skos:Concept;
   skos:prefLabel "hydraulic thawing"@en;
   skos:definition "The thawing of frozen soil using jets of water or steam."@en;
   skos:scopeNote "Did you know? This technique is used to thaw permafrost in the Yukon and elsewhere, to allow gold to be extracted from frozen gravels."@en;
@@ -461,7 +461,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/icelens> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/icelens> a skos:Concept;
   skos:prefLabel "ice lens"@en;
   skos:definition "Ground ice in the shape of a lens."@en;
   skos:scopeNote "Did you know? The thickness of an ice lens in permafrost can range from the diameter of a human hair to 10 m or more."@en;
@@ -470,7 +470,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/icepoorpermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/icepoorpermafrost> a skos:Concept;
   skos:prefLabel "ice-poor permafrost"@en;
   skos:definition "Permafrost with a low ground ice content."@en;
   skos:scopeNote "Did you know? Ice-poor permafrost is most common in coarse-grained soils (sands and gravels) and in unfractured bedrock. A building constructed on ice-poor permafrost will be almost unaffected if the permafrost thaws."@en;
@@ -479,7 +479,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/icerichpermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/icerichpermafrost> a skos:Concept;
   skos:prefLabel "ice-rich permafrost"@en;
   skos:definition "Permafrost with a high ground ice content."@en;
   skos:scopeNote "Did you know? Ice-rich permafrost is particularly common in areas of fine-grained soils (silts and clays). Buildings constructed on ice-rich permafrost must be designed to prevent it from thawing."@en;
@@ -488,7 +488,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/icevein> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/icevein> a skos:Concept;
   skos:prefLabel "ice vein"@en;
   skos:definition "Ice occurring within a crack or fissure in the ground."@en;
   skos:scopeNote "Did you know? Ice wedges are made up of many ice veins."@en;
@@ -497,7 +497,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/icewedge> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/icewedge> a skos:Concept;
   skos:prefLabel "ice wedge"@en;
   skos:definition "A wedge-shaped body of ice, tapering downward into the ground."@en;
   skos:scopeNote "Did you know? An ice wedge forms by a yearly cycle of contraction and cracking of the frozen ground in winter, followed by meltwater entering and freezing within the crack in the spring."@en;
@@ -506,7 +506,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/icewedgemeltpond> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/icewedgemeltpond> a skos:Concept;
   skos:prefLabel "ice-wedge melt pond"@en;
   skos:definition "A narrow pond developed over a partially melted ice wedge."@en;
   skos:scopeNote "Did you know? These ponds have become common in some areas because warmer summers have caused the tops of ice wedges to melt, forming a depression that fills with water."@en;
@@ -515,7 +515,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/icewedgepolygon> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/icewedgepolygon> a skos:Concept;
   skos:prefLabel "ice-wedge polygon"@en;
   skos:definition "A polygon on the ground surface with ice wedges present beneath its borders."@en;
   skos:scopeNote "Did you know? Ice-wedge polygons can be high-centred or low-centred and usually form a network."@en;
@@ -524,7 +524,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/isolatedpatchesofpermafrostzone>
+<http://w3id.org/permafrost/v/illustrateddictionary/isolatedpatchesofpermafrostzone>
   a skos:Concept;
   skos:prefLabel "isolated patches of permafrost zone"@en;
   skos:definition "A geographical area where patches of permafrost are estimated to be present beneath less than 10% of the land surface."@en;
@@ -534,7 +534,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/isotherm> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/isotherm> a skos:Concept;
   skos:prefLabel "isotherm"@en;
   skos:definition "A line on a map or scientific diagram that links points of equal temperature."@en;
   skos:scopeNote "Did you know? The pattern of isotherms on a map shows how temperatures vary through space."@en;
@@ -543,7 +543,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/lithalsa> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/lithalsa> a skos:Concept;
   skos:prefLabel "lithalsa"@en;
   skos:definition "A permafrost mound up to a few metres high composed almost entirely of mineral soil and layers of ice."@en;
   skos:scopeNote "Did you know? Lithalsas typically occur in wetlands where permafrost is discontinuous. The layers of ground ice within a lithalsa are the main reason it rises above the surrounding wetland."@en;
@@ -552,7 +552,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/massiveice> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/massiveice> a skos:Concept;
   skos:prefLabel "massive ice"@en;
   skos:definition "Masses of nearly pure ice in the ground."@en;
   skos:scopeNote "Did you know? Massive ice beds can be more than 40 m thick and extend over distances of 2 km."@en;
@@ -561,7 +561,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/meanannualairtemperature> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/meanannualairtemperature> a skos:Concept;
   skos:prefLabel "mean annual air temperature"@en;
   skos:definition "The temperature of the air averaged from daily measurements for at least one complete year."@en;
   skos:scopeNote "Did you know? Mean annual air temperatures in the Arctic and Subarctic are rising rapidly and causing permafrost to warm and thaw."@en;
@@ -570,7 +570,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/mountainpermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/mountainpermafrost> a skos:Concept;
   skos:prefLabel "mountain permafrost"@en;
   skos:definition "Permafrost within high mountain regions of the world."@en;
   skos:scopeNote "Did you know? Permafrost can exist in mountains when it is absent in nearby valleys because the climate is colder at high elevations. Permafrost is also more common beneath shaded mountain slopes, which face north in the Northern Hemisphere (e.g. in the Rocky Mountains and the European Alps) and south in the Southern Hemisphere (e.g., in the Andes)."@en;
@@ -579,7 +579,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/muskeg> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/muskeg> a skos:Concept;
   skos:prefLabel "muskeg"@en;
   skos:definition "Peat-covered wetlands that may include permafrost mounds."@en;
   skos:scopeNote "Did you know? Muskeg is a word that has its roots in Algonquian languages. The southernmost permafrost in North America that is not in mountains is found in muskeg."@en;
@@ -588,7 +588,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/nearsurfacepermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/nearsurfacepermafrost> a skos:Concept;
   skos:prefLabel "near-surface permafrost"@en;
   skos:definition "Permafrost within 3-4 m of the ground surface."@en;
   skos:scopeNote "Did you know? Computer models can be used to predict the impact of climate warming on near-surface permafrost which will be the first part to thaw, and which often contains more ice than deeper layers."@en;
@@ -597,7 +597,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/palsa> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/palsa> a skos:Concept;
   skos:prefLabel "palsa"@en;
   skos:definition "A permafrost mound up to a few metres high composed mainly of frozen peat and layers of ice."@en;
   skos:scopeNote "Did you know? Palsas typically occur in wetlands where permafrost is discontinuous. The layers of ground ice within a palsa are the main reason it rises above the surrounding wetland."@en;
@@ -606,7 +606,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/patternedground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/patternedground> a skos:Concept;
   skos:prefLabel "patterned ground"@en;
   skos:definition "A repeating pattern of polygons, circles, nets, stripes or steps visible on the ground surface."@en;
   skos:scopeNote "Did you know? Patterned ground can be outlined by differences in vegetation or by the size of soil particles. It is linked to ground freezing and thawing and may be an indication that permafrost is present."@en;
@@ -615,7 +615,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/peat> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/peat> a skos:Concept;
   skos:prefLabel "peat"@en;
   skos:definition "Decaying plant matter, usually found at the ground surface, forming a layer over other soils."@en;
   skos:scopeNote "Did you know? Peat is an excellent natural insulator, better than many manufactured ones. This can allow permafrost to be present at peat-covered sites where the climate is otherwise too warm for it to exist."@en;
@@ -624,7 +624,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/peatland> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/peatland> a skos:Concept;
   skos:prefLabel "peatland"@en;
   skos:definition "Peat-covered ground, commonly referred to as muskeg in North America."@en;
   skos:scopeNote "Did you know? The southernmost permafrost in North America that is not in mountains is found in peatlands."@en;
@@ -633,7 +633,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/peatplateau> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/peatplateau> a skos:Concept;
   skos:prefLabel "peat plateau"@en;
   skos:definition "An isolated, flat-topped, elevated area of peat containing permafrost, usually within a wetland."@en;
   skos:scopeNote "Did you know? Reindeer lichen often grows on peat plateaus, making them good habitat for caribou."@en;
@@ -642,7 +642,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrost> a skos:Concept;
   skos:prefLabel "permafrost"@en;
   skos:definition "Ground that remains at or below a temperature of 0°C for at least two years in a row."@en;
   skos:scopeNote "Did you know? Although permafrost is defined by temperature it usually contains some ice. However, there are exceptions. For example, a soil with a high concentration of salts does not freeze at 0°C so it can be permafrost and contain only liquid water, while both liquid water and ice can be absent in the dry permafrost of Antarctica."@en;
@@ -651,7 +651,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostaggradation> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostaggradation> a skos:Concept;
   skos:prefLabel "permafrost aggradation"@en;
   skos:definition "The formation or growth of permafrost upwards, downwards, or sideways."@en;
   skos:scopeNote "Did you know? Global climate warming means that permafrost aggradation is now quite rare. It can still occur, however, if unfrozen sediments are newly exposed to a cold climate, such as when a lake drains on the tundra and permafrost aggrades in the former lake bottom."@en;
@@ -660,7 +660,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostbase> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostbase> a skos:Concept;
   skos:prefLabel "permafrost base"@en;
   skos:definition "The lower boundary of permafrost."@en;
   skos:scopeNote "Did you know? The permafrost base, where ground temperatures begin to be higher than 0°C, may be only a few metres deep in the boreal forest but several hundred metres deep beneath tundra."@en;
@@ -669,7 +669,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostcarbon> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostcarbon> a skos:Concept;
   skos:prefLabel "permafrost carbon"@en;
   skos:definition "Organic carbon stored in permafrost."@en;
   skos:scopeNote "Did you know? There is a massive amount of permafrost carbon in the Arctic and Subarctic. Most of it is made up of shoots and roots of plants that were incorporated into the soil and then frozen as the permafrost formed."@en;
@@ -678,7 +678,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostcarbonclimatefeedbacks>
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostcarbonclimatefeedbacks>
   a skos:Concept;
   skos:prefLabel "permafrost carbon-climate feedbacks"@en;
   skos:definition "The processes by which a rise in global air temperature causes and is affected by permafrost change."@en;
@@ -688,7 +688,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostcoresample> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostcoresample> a skos:Concept;
   skos:prefLabel "permafrost core sample"@en;
   skos:definition "A sample of permafrost, typically a cylinder of frozen soil or rock and ice, obtained using a specialized drill ."@en;
   skos:scopeNote "Did you know? Core samples can be used for many purposes, such as describing the distribution of ice in the permafrost and for measuring its strength in the laboratory as it thaws."@en;
@@ -697,7 +697,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostdegradation> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostdegradation> a skos:Concept;
   skos:prefLabel "permafrost degradation"@en;
   skos:definition "Changes in the physical characteristics of permafrost due to warming or thaw from the top down, bottom up, or sideways."@en;
   skos:scopeNote "Did you know? Permafrost degradation has become widespread as the climate has warmed. It can have major ecological impacts and can also negatively affect buildings and other infrastructure."@en;
@@ -706,7 +706,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostmelt> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostmelt> a skos:Concept;
   skos:prefLabel "permafrost melt"@en;
   skos:definition "A commonly-used phrase to describe the degradation of permafrost containing large amounts of ice ."@en;
   skos:scopeNote "Did you know? Permafrost scientists and engineers prefer to say that permafrost thaws, not melts. That's because the ice alone melts, while the soils and rocks that make up most of the permafrost do not."@en;
@@ -715,7 +715,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostmonitoringborehole>
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostmonitoringborehole>
   a skos:Concept;
   skos:prefLabel "permafrost monitoring borehole"@en;
   skos:definition "A borehole drilled in permafrost and equipped with sensors that measure ground temperature."@en;
@@ -725,7 +725,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrosttable> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrosttable> a skos:Concept;
   skos:prefLabel "permafrost table"@en;
   skos:definition "The top boundary of permafrost."@en;
   skos:scopeNote "Did you know? The permafrost table can be less than 1 m deep beneath the tundra but can be several metres below the ground surface where permafrost degradation is occurring."@en;
@@ -734,7 +734,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostthaw> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostthaw> a skos:Concept;
   skos:prefLabel "permafrost thaw"@en;
   skos:definition "The change in permafrost as ground temperatures approach or exceed 0°C and ground ice changes into liquid water."@en;
   skos:scopeNote "Did you know? Permafrost thaw usually takes place quite slowly, but large amounts of ice in the ground can affect this, resulting in thermokarst development and what is sometimes called abrupt thaw."@en;
@@ -743,7 +743,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostthickness> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostthickness> a skos:Concept;
   skos:prefLabel "permafrost thickness"@en;
   skos:definition "The thickness of permafrost measured from the permafrost table to its base."@en;
   skos:scopeNote "Did you know? The thickness of permafrost varies from a few metres in the isolated patches zone to more than 1000 m in the coldest parts of the continuous permafrost zone."@en;
@@ -752,7 +752,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/permafrostzone> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/permafrostzone> a skos:Concept;
   skos:prefLabel "permafrost zone"@en;
   skos:definition "A geographical area where permafrost is estimated to be present beneath a certain proportion of the ground surface."@en;
   skos:scopeNote "Did you know? There are four main permafrost zones, defined by the estimated percentage of the land surface underlain by permafrost: continuous (90-100%), discontinuous (50-90%), sporadic (10-50%) and isolated patches (less than 10%)."@en;
@@ -761,7 +761,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/pingo> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/pingo> a skos:Concept;
   skos:prefLabel "pingo"@en;
   skos:definition "A dome-shaped or conical hill formed by the growth of an ice core within permafrost."@en;
   skos:scopeNote "Did you know? The term pingo, which has been adopted worldwide, is a regional Inuvialuktun word for these features in the Mackenzie Delta Region, Canada."@en;
@@ -770,7 +770,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/poreice> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/poreice> a skos:Concept;
   skos:prefLabel "pore ice"@en;
   skos:definition "Ice formed when water freezes in the pore spaces of soil or rock."@en;
   skos:scopeNote "Did you know? Pore ice may be just visible without a magnifying glass in frozen coarse-grained sands and gravels. It is invisible in fine-grained silts and clays because their pore spaces are so small."@en;
@@ -779,7 +779,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/radiator> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/radiator> a skos:Concept;
   skos:prefLabel "radiator"@en;
   skos:definition "The part of a thermosyphon that extends above the ground and transfers heat into the air."@en;
   skos:scopeNote "Did you know? You can tell if a thermosyphon is working by pointing a thermal imaging camera at its radiator (also known as a condenser) in the winter. The radiator should appear bright in an image, showing that it's warmer than its surroundings."@en;
@@ -788,7 +788,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/relictpermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/relictpermafrost> a skos:Concept;
   skos:prefLabel "relict permafrost"@en;
   skos:definition "Permafrost that persists in areas where it cannot form today because the environment has warmed."@en;
   skos:scopeNote "Did you know? Some relict permafrost formed only a few hundred years ago when the climate was cooler in the Northern Hemisphere."@en;
@@ -797,7 +797,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/retrogressivethawslump> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/retrogressivethawslump> a skos:Concept;
   skos:prefLabel "retrogressive thaw slump"@en;
   skos:definition "A bowl-shaped landslide in ice-rich permafrost that enlarges each summer as exposed ground ice melts and the headwall collapses."@en;
   skos:scopeNote "Did you know? These thermokarst landforms have become more common in recent years as the climate has warmed. The discharge of sediment and dissolved salts from the largest retrogressive thaw slumps (called mega-slumps) can affect entire valleys."@en;
@@ -806,7 +806,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/rockglacier> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/rockglacier> a skos:Concept;
   skos:prefLabel "rock glacier"@en;
   skos:definition "A thick, tongue-shaped mass of rock and finer material that contains ice within its core and moves slowly down a mountain slope."@en;
   skos:scopeNote "Did you know? The distribution of moving rock glaciers has been used to help predict where permafrost is present in the Alps and the Andes."@en;
@@ -815,7 +815,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/salinepermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/salinepermafrost> a skos:Concept;
   skos:prefLabel "saline permafrost"@en;
   skos:definition "Permafrost with a high concentration of salts due to natural factors or pollution."@en;
   skos:scopeNote "Did you know? Water in saline permafrost may not freeze until its temperature falls well below 0°C. As a result, saline permafrost near 0°C can behave like unfrozen soil in terms of its strength to support buildings or its ability to store contaminants."@en;
@@ -824,7 +824,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/seasonallyfrozenground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/seasonallyfrozenground> a skos:Concept;
   skos:prefLabel "seasonally frozen ground"@en;
   skos:definition "Ground that is frozen for more than 15 days per year but thaws annually."@en;
   skos:scopeNote "Did you know? Global climate change over the past few decades has caused the average thickness of seasonally frozen ground to decrease in some non-permafrost areas."@en;
@@ -833,7 +833,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/solifluction> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/solifluction> a skos:Concept;
   skos:prefLabel "solifluction"@en;
   skos:definition "The slow, downslope movement of the surface layer of the ground resulting from freezing and thawing of the soil."@en;
   skos:scopeNote "Did you know? Solifluction movements of a few millimetres to a few centimetres per year can occuron both permafrost and non-permafrost slopes The process creates characteristic features, including lobes, sheets, steps and stripes."@en;
@@ -842,7 +842,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/spaceframefoundation> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/spaceframefoundation> a skos:Concept;
   skos:prefLabel "space frame foundation"@en;
   skos:definition "A network of metal tubes joined together to support a building constructed on permafrost."@en;
   skos:scopeNote "Did you know? Space frame foundations are made up of many connected triangles which are particularly stable shapes. This type of foundation can be easily adjusted to keep a building level even if the ground heaves or settles."@en;
@@ -851,7 +851,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/sporadicpermafrostzone> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/sporadicpermafrostzone> a skos:Concept;
   skos:prefLabel "sporadic permafrost zone"@en;
   skos:definition "A geographical area where disconnected bodies of permafrost are estimated to be present beneath more than 10% and less than half of the land surface."@en;
   skos:scopeNote "Did you know? Most of the sporadic permafrost zone in North America is covered by boreal forest."@en;
@@ -860,7 +860,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/suprapermafrostgroundwater> a
+<http://w3id.org/permafrost/v/illustrateddictionary/suprapermafrostgroundwater> a
     skos:Concept;
   skos:prefLabel "suprapermafrost groundwater"@en;
   skos:definition "Water that occurs in unfrozen parts of the ground above permafrost."@en;
@@ -870,7 +870,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/talik> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/talik> a skos:Concept;
   skos:prefLabel "talik"@en;
   skos:definition "A part of the ground at a site with permafrost that remains unfrozen throughout the year."@en;
   skos:scopeNote "Did you know? Taliks are present beneath lakes and rivers, even in areas of continuous permafrost, providing the water is deep enough that it does not freeze to the bottom in winter."@en;
@@ -879,7 +879,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thawdepth> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thawdepth> a skos:Concept;
   skos:prefLabel "thaw depth"@en;
   skos:definition "The distance from the ground surface to the top of frozen ground."@en;
   skos:scopeNote "Did you know? The thaw depth at a permafrost site increases throughout the summer, typically reaching a maximum at the start of autumn when it will be the same as the active-layer thickness."@en;
@@ -888,7 +888,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thawsensitivepermafrost> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thawsensitivepermafrost> a skos:Concept;
   skos:prefLabel "thaw-sensitive permafrost"@en;
   skos:definition "Permafrost containing enough ice that it would lose strength and settle significantly if it were to thaw."@en;
   skos:scopeNote "Did you know? Buildings on thaw-sensitive permafrost are designed to maintain the frozen ground beneath them."@en;
@@ -897,7 +897,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thawsettlement> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thawsettlement> a skos:Concept;
   skos:prefLabel "thaw settlement"@en;
   skos:definition "Settling of the ground surface, buildings or infrastructure caused by melt of ice within the soil."@en;
   skos:scopeNote "Did you know? Significant thaw settlement can make buildings and infrastructure unusable, partly because the uneven distribution of ice in the ground means that settling is also uneven."@en;
@@ -906,7 +906,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thawslumping> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thawslumping> a skos:Concept;
   skos:prefLabel "thaw slumping"@en;
   skos:definition "A landsliding proccess involving the melting of ground ice and the collapse of thawed sediments."@en;
   skos:scopeNote "Did you know? Thaw slumping is a thermokarst process that is linked to the expansion of retrogressive thaw slumps and thermokarst lakes, as well as coastal erosion."@en;
@@ -915,7 +915,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thawstableground> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thawstableground> a skos:Concept;
   skos:prefLabel "thaw-stable ground"@en;
   skos:definition "Ground that contains little or no ice when frozen and that remains strong if it thaws."@en;
   skos:scopeNote "Did you know? Thaw-stable ground is typically composed of rock, sands or gravels."@en;
@@ -924,7 +924,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thawtube> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thawtube> a skos:Concept;
   skos:prefLabel "thaw tube"@en;
   skos:definition "A device installed in the ground to monitor the annual thickness of the active layer."@en;
   skos:scopeNote "Did you know? One type of thaw tube is filled with water and inserted vertically into a hole drilled into the permafrost. A coloured bead placed in the tube descends to the boundary between water and ice, and at the end of summer, it refreezes and marks the base of the active layer."@en;
@@ -933,7 +933,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thermalerosion> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thermalerosion> a skos:Concept;
   skos:prefLabel "thermal erosion"@en;
   skos:definition "The erosion of frozen soils by moving water."@en;
   skos:scopeNote "Did you know? Thermal erosion both melts ground ice and removes the thawed sediment. It creates tunnels and deep channels on slopes, as well as cavities beneath frozen coastal cliffs, lakeshores and river banks, that may suddenly collapse."@en;
@@ -942,7 +942,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thermokarst> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thermokarst> a skos:Concept;
   skos:prefLabel "thermokarst"@en;
   skos:definition "Processes linked to the thaw of ice-rich permafrost, including thaw settlement, thaw slumping, and thermal erosion, and the impacts of these processes on the landscape."@en;
   skos:scopeNote "Did you know? Thermokarst can be started by widespread climate warming or by localized disturbances, such as poor construction practices or forest and tundra fires."@en;
@@ -951,7 +951,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thermokarstlake> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thermokarstlake> a skos:Concept;
   skos:prefLabel "thermokarst lake"@en;
   skos:definition "A lake formed or affected by the thaw of ice-rich permafrost."@en;
   skos:scopeNote "Did you know? Thermokarst lakes can expand as their banks thaw and collapse by thaw slumping."@en;
@@ -960,7 +960,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/thermosyphon> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/thermosyphon> a skos:Concept;
   skos:prefLabel "thermosyphon"@en;
   skos:definition "A piping system, with one end buried in the permafrost and the other extending above ground, that transfers heat from the ground to the air in winter without needing a power source (see radiator)."@en;
   skos:scopeNote "Did you know? Thermosyphons are often used to prevent the ground from thawing beneath buildings, but the technology was originally developed to cool space capsules re-entering the atmosphere."@en;
@@ -969,7 +969,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/trumpetcurve> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/trumpetcurve> a skos:Concept;
   skos:prefLabel "trumpet curve"@en;
   skos:definition "A line graph showing the year's maximum and minimum ground temperatures against depth."@en;
   skos:scopeNote "Did you know? A trumpet curve is a simple way to summarize ground temperatures at a permafrost site. The two lines meet at depths of 2-20 m, giving the appearance of the bell of a trumpet."@en;
@@ -978,7 +978,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/utilidor> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/utilidor> a skos:Concept;
   skos:prefLabel "utilidor"@en;
   skos:definition "An insulated box or large conduit, supported above ground, that encloses a network of piping for water supply, sewage and other services in a community constructed on thaw-sensitive permafrost."@en;
   skos:scopeNote "Did you know? Utilidors permit the supply of running water year-round without thawing the permafrost."@en;
@@ -987,7 +987,7 @@
   skos:inScheme <http://w3id.org/permafrost/v/illustrateddictionary/scheme>;
   skos:topConceptOf <http://w3id.org/permafrost/v/illustrateddictionary/scheme> .
 
-<http://w3id.org/permafrost/v/illustratedpermafrost/yedoma> a skos:Concept;
+<http://w3id.org/permafrost/v/illustrateddictionary/yedoma> a skos:Concept;
   skos:prefLabel "yedoma"@en;
   skos:definition "Very ice-rich permafrost, containing large ice wedges, found in parts of Siberia, Alaska and Yukon that were too dry to be covered by glaciers during the last Ice Age."@en;
   skos:scopeNote "Did you know? Yedoma, also known as \"muck\" in Yukon, has preserved many animal bones and even the bodies of extinct animals, such as the woolly mammoth, Yukon horse, and steppe bison."@en;
